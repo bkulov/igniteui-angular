@@ -6,7 +6,7 @@
 
 [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular) is a complete set of Material-based UI Widgets, Components & Sketch UI kits and supporting directives for [Angular](https://angular.io/) by Infragistics.  Ignite UI for Angular is designed to enable developers to build the most modern, high-performance HTML5 & JavaScript apps for modern desktop browsers, mobile experiences and progressive web apps (PWA’s) targeting Google's Angular framework.
 
-[![Build Status](https://dev.azure.com/IgniteUI/igniteui-angular/_apis/build/status/bkulov.igniteui-angular)](https://dev.azure.com/IgniteUI/igniteui-angular/_build/latest)
+[![Build Status](https://dev.azure.com/IgniteUI/igniteui-angular/_apis/build/status/bkulov.igniteui-angular)](https://dev.azure.com/IgniteUI/igniteui-angular/_build/latest?branchName=master)
 
 You can find source files under the [`src`](https://github.com/IgniteUI/igniteui-angular/tree/master/src) folder, including samples and tests.
 
