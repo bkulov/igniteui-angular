@@ -31,7 +31,7 @@ describe('IgxTimePicker', () => {
         UIInteractions.clearOverlay();
     });
 
-    it('Initialize a TimePicker component', fakeAsync(() => {
+    fit('Initialize a TimePicker component', fakeAsync(() => {
         const fixture = TestBed.createComponent(IgxTimePickerTestComponent);
         tick();
         fixture.detectChanges();
