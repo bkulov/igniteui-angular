@@ -32,7 +32,7 @@ steps:
     COVERALLS_REPO_TOKEN: $(coveralls.repoToken)
 
 - task: PublishTestResults@2
-  condition: and(succeeded(), failed())
+  condition: or(succeeded(), failed())
   inputs:
     testRunner: 'JUnit'
     testResultsFiles: '**/TESTS-*.xml'
