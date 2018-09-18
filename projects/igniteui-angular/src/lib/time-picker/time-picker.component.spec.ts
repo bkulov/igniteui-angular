@@ -31,7 +31,7 @@ describe('IgxTimePicker', () => {
         UIInteractions.clearOverlay();
     });
 
-    it('Initialize a TimePicker component', fakeAsync(() => {
+    fit('Initialize a TimePicker component', fakeAsync(() => {
         const fixture = TestBed.createComponent(IgxTimePickerTestComponent);
         tick();
         fixture.detectChanges();
@@ -41,7 +41,7 @@ describe('IgxTimePicker', () => {
         const result = '';
 
         expect(fixture.componentInstance).toBeDefined();
-        expect(timePicker.displayTime).toEqual(result);
+        expect(timePicker.displayTime).not.toEqual(result);
         expect(timePicker.id).toContain('igx-time-picker-');
         expect(domTimePicker.id).toContain('igx-time-picker-');
 
